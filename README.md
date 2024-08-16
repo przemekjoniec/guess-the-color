@@ -9,12 +9,12 @@ A simple web game where you guess the RGB values of a randomly generated color.
 - **Input Validation**: Ensures inputs are between 0 and 255.
 - **Feedback**: Immediate feedback on your guess with an option to play again.
 
-##Usage
+## Usage
 - **Enter RGB values.
 - **Click "Check Color" to see if your guess matches.
 - **Play again or move to the next round.
 
-##Technologies
+## Technologies
 - **HTML5
 - **CSS3 (SASS)
 - **JavaScript (ES6)
