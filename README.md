@@ -11,10 +11,10 @@ A simple web game where you guess a randomly generated color.
 
 ## Usage
 - Enter RGB/HEX values.
-- Click "Check Color" to see if your guess matches.
+- Click button to see if your guess matches.
 - Play again or move to the next round.
 
 ## Technologies
 - HTML5
-- CSS3 (SASS)
-- JavaScript (ES6)
+- CSS3
+- JavaScript
