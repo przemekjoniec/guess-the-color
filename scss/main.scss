@@ -13,16 +13,6 @@
 html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
-	overflow: hidden;
-}
-button {
-	border: none;
-	cursor: pointer;
-}
-.wrapper {
-	max-width: 992px;
-	padding-right: 10px;
-	padding-left: 10px;
 }
 body {
 	height: 100vh;
@@ -30,70 +20,41 @@ body {
 	background-color: var(--main-color);
 	text-align: center;
 	font-family: var(--font);
-	p {
+	.title {
 		font-size: 8rem;
 		color: var(--dark-color);
+		margin: 5vh 0;
+	}
+	.mode-title {
+		font-size: 4rem;
+		color: var(--dark-color);
+		margin: 2vh 0;
 	}
 }
 .div-box {
 	display: flex;
 	justify-content: center;
-	align-self: center;
-	margin: 2vh 0;
-	.target,
-	.answer {
-		height: 40vh;
-		width: 40vh;
-		background-color: var(--main-color);
-		border: 2px var(--dark-color) solid;
-		border-radius: 25px;
-        margin: 0vh 5vh;
-	}
-}
-.answer-box {
-	.info {
-		font-size: 4rem;
+	align-items: center;
+	button {
 		text-align: center;
-	}
-	.input-info,
-	.result-info {
-		font-size: 3rem;
-		visibility: hidden;
-		margin: 2vh 0;
-	}
-	.answer-input {
-		text-align: center;
-		margin-right: 5vh;
-		width: 10%;
 		height: 7vh;
+		width: 15vh;
+		margin: 0 10px;
 		font-size: 3rem;
-		padding: 30px;
 		background-color: var(--main-color);
 		color: #040d12;
 		border: 2px var(--dark-color) solid;
 		border-radius: 50px;
-	}
-	input::-webkit-outer-spin-button,
-	input::-webkit-inner-spin-button {
-		-webkit-appearance: none;
-		margin: 0;
-	}
-	.fa-solid {
-		margin-top: 0.5vh;
-		font-size: 6rem;
 		cursor: pointer;
-		color: var(--dark-color);
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			background-color: var(--dark-color);
+			color: var(--main-color);
+		}
 	}
-	.bnt-nextround {
-		visibility: hidden;
-		padding: 2vh;
-		font-size: 2rem;
-		border: 2px var(--dark-color) solid;
-		border-radius: 50px;
-		cursor: pointer;
-        margin: 2vh 0;
-	}
-	.visible {
-		visibility: visible;
-	}
+}
+.wrapper {
+	max-width: 992px;
+	padding-right: 10px;
+	padding-left: 10px;
 }

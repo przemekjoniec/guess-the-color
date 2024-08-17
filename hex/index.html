@@ -15,12 +15,26 @@
 </head>
 
 <body>
-    <p class="title">Guess the color!</p>
-    <p class="mode-title">Choose the mode:</p>
+    <a href="../index.html">
+        <p class="title">Guess the color!</p>
+    </a>
     <div class="div-box">
-        <div class="rgb-btn"><a href="./rgb/index.html"><button>RGB</button></a></div>
-        <div class="hex-btn"><a href="./hex/index.html"><button>HEX</button></a></div>
+        <div class="target"></div>
+        <div class="answer"></div>
     </div>
+    <div class="answer-box">
+        <p class="info">Enter your answer in HEX</p>
+        <p class="input-info"></p>
+        <div class="answer-items">
+            <div class="items1">
+                <input type="text" name="" id="answer" class="answer-input" placeholder="Hex code" maxlength="6">
+            </div>
+            <div class="items2"><i class="fa-solid fa-circle-arrow-right"></i></div>
+        </div>
+        <p class="result-info"></p>
+        <button class="bnt-nextround">Next round</button>
+    </div>
+
     <script src="main.js"></script>
 </body>
 
