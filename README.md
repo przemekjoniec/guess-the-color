@@ -1,5 +1,5 @@
 
-# RGB Color Guessing Game
+# Color Guessing Game
 
 A simple web game where you guess a randomly generated color.
 
